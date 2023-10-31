@@ -10,6 +10,25 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.mt-mb-40-20{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.pr-pl-20{
+    padding: 0 20px;
+}
+
 /* mobile first */
 
 .nav-color{
@@ -30,14 +49,22 @@ body{
     height: 70px;
 }
 
-
 a{
     text-decoration: none;
+}
+
+nav a,
+#demo a{
     color: white;
 }
 
 ul{
     list-style: none;
+}
+
+#hide{
+    display:none
+
 }
 
 .fa-bars{
@@ -88,7 +115,7 @@ ul{
 }
 
 
-.col-content .fa-sheet-plastic,
+.col-content .fa-file-code,
 .col-content .fa-compass-drafting,
 .col-content .fa-laptop-code,
 .col-content .fa-bullhorn{
@@ -105,12 +132,44 @@ ul{
 
 /* section plans */
 
-.plans{
+#plans{
     background-color: #9593e6;
 }
 
-.col-2 img{
-    padding: 50px 0;
+#plans .row{
+    margin-top: 100px;
+}
+
+#plans .col-2:first-child{
+    color: white;
+}
+
+
+.col-2-content img{
+    /* margin: 100px 0; */
     width: 100%;
 }
 
+
+.white-color{
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+#plans a{
+    color: black;
+    background-color: #0084fd;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.icons{
+    padding:20px 0;
+}
