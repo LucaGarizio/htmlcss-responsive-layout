@@ -34,6 +34,12 @@
 
 
    /* testimonial */
+
+   #testimonial p,
+   #testimonial h3{
+    padding-left: 30px;
+   }
+
     .col-3{
         margin: 10px 0 20px;
     }
@@ -44,6 +50,9 @@
     justify-content: flex-start;
    }
 
+   #testimonial .rounded-img img{
+    max-width: 100%;
+   }
    .col-3-content .text{
     text-align: left;
    }
@@ -67,16 +76,55 @@
     padding: 0 10px;
    }
 
-   #testimonial p,
-   #testimonial h3{
-    padding-left: 30px;
+   /* about us */
+   #about-us .row{
+    display: flex;
    }
+
+   .col-2-2{
+    width: 50%;
+   }
+
+   #about-us .rounded-img{
+    text-align: center;
+   }
+   #about-us .rounded-img img{
+    max-width: 80%;
+   }
+
+   #about-us img{
+    text-align: center;
+   }
+
+   .quotation-mark{
+    top: 10%;
+    left: 70%;
+   }
+
+   #about-us .text:nth-of-type(1){
+    margin-top: 40px;
+   }
+
+   #about-us .text:nth-of-type(2){
+   margin: 0 25px;
+   }
+
+   #about-us a{
+    width: 80%;
+    }
+
+    #about-us .text{
+    line-height: 35px;
+    font-size: 18px;
+    }
 }
 
 
 /* desktop version */
 @media all and (min-width: 1200px){
-
+    .container{
+        width: 75vw;
+    }
     /* nav */
     #bar-menu{
         display: none;
@@ -92,21 +140,15 @@
     }
 
 
-
     /* demo section */
     .col-5-content{
         display: flex;
     }
-
+    #demo a{
+        width: 50%;
+    }
 
     /* /* plans */
-
-    /* #plans .col-2{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    } */
-   
     #plans .row{
         display: flex;
         flex-wrap: nowrap;
@@ -130,8 +172,7 @@
     }
 
     /* testimonial */
-
-    #testimonial img{
+        #testimonial img{
         max-width: 80%;
         
     }
@@ -143,6 +184,9 @@
     /* benefit */
     .col-6{
         width: calc(100% / 3);
+    }
 
+    #benefit a{
+        width: 50%;
     }
 }  
