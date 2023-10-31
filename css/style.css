@@ -82,14 +82,14 @@ ul{
     padding: 0 20px;
 }
 
-.col-content{
+.col-5-content{
     background-color: #b5ddff;
     border-radius: 30px;
     padding: 50px 50px 0;
     border: 1px solid black;
 }
 
-.col-content a{
+.col-5-content a{
     display: block;
     background-color: #0084fd;
     width: 80%;
@@ -99,26 +99,26 @@ ul{
     text-align: center;
 }
 
-.col-content p{
+.col-5-content p{
     margin: 20px 0;
 }
 
-.col-content img{
+.col-5-content img{
     max-width: 100%;
 
 }
 
 
-.col-content.center{
+.col-5-content.center{
     text-align: center;
     padding-bottom: 20px;
 }
 
 
-.col-content .fa-file-code,
-.col-content .fa-compass-drafting,
-.col-content .fa-laptop-code,
-.col-content .fa-bullhorn{
+.col-5-content .fa-file-code,
+.col-5-content .fa-compass-drafting,
+.col-5-content .fa-laptop-code,
+.col-5-content .fa-bullhorn{
     font-size: 60px;
     color: #0084fd;
     padding-bottom: 30px;
@@ -126,19 +126,16 @@ ul{
     
 }
 
-.col-content h2{
+.col-5-content h2{
     color: #0084fd;
 }
 
 /* section plans */
-
 #plans{
     background-color: #9593e6;
+    padding: 50px 0;
 }
 
-#plans .row{
-    margin-top: 100px;
-}
 
 #plans .col-2:first-child{
     color: white;
@@ -172,4 +169,47 @@ ul{
 
 .icons{
     padding:20px 0;
+}
+
+
+/* testimonial section */
+
+#testimonial{
+    margin: 50px;
+}
+
+#testimonial p,
+#testimonial h2{
+    margin: 30px;
+}
+
+.col-3{
+    border: 1px solid black;
+    margin: 40px 0;
+    max-width: 100%;
+}
+
+.col-3-content{
+    background-color: #9792e4;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+.rounded-img img{
+    max-width: 60%;
+    border-radius: 50%;
+}
+
+.col-3-content p{
+    margin: 10px 0 20px ;
+}
+
+#testimonial .col-3-content .text{
+    color: #fff;
+}
+
+/* benefit */
+#benefit{
+    background-color: #9593e6;
+    padding: 50px 0;
 }
