@@ -7,34 +7,37 @@
         flex-wrap: wrap;
     }
 
-
     .col-5{
         display: flex;
         width: calc(100% / 3);
         align-items: stretch;
-
-       
+        justify-content: space-between
     }
 
-    .col-5.big{
-        width: calc((100% / 3) * 2);
-        
-        
+    .big{
+        width: calc((100% / 3) * 2);    
     }
 
     .col-content img{
-        max-width: 65%;
+        max-width: 250px;
     }
 
+    .col-content{
+        padding: 30px 20px 0;
+    }
 }
-
-
-
 
 
 
 /* desktop version */
 
 @media all and (min-width: 1400px){
+    .demo .bug:first-child{
+        float: left;
+    }
+
+    .col-content{
+        display: flex;
+    }
 
 }
