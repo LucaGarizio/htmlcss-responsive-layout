@@ -95,13 +95,14 @@
    .about-us img{
         text-align: center;
    }
-.quotation-mark{
+    .quotation-mark{
         top: 10%;
         left: 75%;
    }
 
    .about-us .text:nth-of-type(1){
         margin-top: 40px;
+        margin-right: 50px;
    }
 
    .about-us .text:nth-of-type(2){
@@ -109,7 +110,7 @@
    }
 
    .about-us a{
-        width: 80%;
+        width: 90%;
     }
 
     .about-us .text{
@@ -197,5 +198,13 @@
 
     .benefit a{
         width: 50%;
+    }
+
+
+    
+    /* get-started */
+
+    .button{
+        width: 30%;
     }
 }  

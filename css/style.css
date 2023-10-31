@@ -169,6 +169,7 @@ ul{
 }
 
 .plans a{
+    
     color: black;
     background-color: #0084fd;
     font-size: 15px;
@@ -178,7 +179,7 @@ ul{
 }
 
 .icons{
-    padding:20px 0;
+    padding: 20px 0;
 }
 
 
@@ -218,6 +219,7 @@ ul{
 .testimonial .rounded-img img{
     max-width: 50%;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .col-3-content p{
@@ -395,7 +397,7 @@ ul{
 }
 
 .button{
-    margin: 0 auto 20px;
+    margin: 40px auto 40px;
     background-color: #fff;
     width: 50%;
     border-radius: 20px;
