@@ -78,8 +78,12 @@ ul{
 }
 
 /* section demo */
+#demo{
+    padding: 50px 0;
+}
+
 .margin{
-    margin: 50px -20px;
+    margin: 0 -20px;
 }
 
 .col-5{
@@ -114,12 +118,10 @@ ul{
 
 }
 
-
 .col-5-content.center{
     text-align: center;
     padding-bottom: 20px;
 }
-
 
 .col-5-content .fa-file-code,
 .col-5-content .fa-compass-drafting,
@@ -181,7 +183,7 @@ ul{
 /* testimonial section */
 
 #testimonial{
-    margin: 50px 0 30px 0;
+    padding: 50px 0;
 }
 
 #testimonial p,
@@ -227,7 +229,7 @@ ul{
 /* benefit */
 #benefit{
     background-color: #9593e6;
-    padding: 50px 0 30px 0;
+    padding: 50px 0;
 }
 
 #benefit .title-section {
@@ -280,7 +282,7 @@ ul{
     /* about us */
 
     #about-us{
-        margin-top: 50px;
+        padding: 100px 0;
     }
     #about-us h2{
         font-size: 50px;
@@ -346,3 +348,79 @@ ul{
     .text{
         border: 1px solid black;
     }
+
+    /* get started section */
+    #get-started{
+        padding: 50px 0  70px;
+        background-color: #9792e4;
+    }
+
+    #get-started .col-1{
+        text-align: center;
+    }
+
+
+    .col-1 h2,
+    .col-1 p{
+        margin: 20px 0;
+    }
+
+    .big-title{
+        color: #fdc15f;
+        font-size: 80px;
+    }
+
+    .col-1 h3{
+        color: #d5d4f4;
+    }
+    
+    .col-1 h2,
+    .col-1 span,
+    .col-1 p{
+        color: #fff;
+    }
+
+    .col-1 a{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .button{
+        margin: 0 auto 20px;
+        background-color: #fff;
+        width: 50%;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        color: #9792e4;
+    }
+
+    /* footer */
+    footer{
+        background-color: #333333;
+        padding: 50px 0;
+    }
+
+    footer p{
+        margin-bottom: 50px;
+        text-align: center;
+        color: #fff;
+    }
+
+    footer span{
+        display: block;
+        color: #fff;
+        text-align: center;
+    }
+
+    footer span{
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer a{
+        text-decoration: underline;
+        color: #7875ae;
+    }
+
+ 
