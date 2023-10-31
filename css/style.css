@@ -10,6 +10,11 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+#plans h2,
+#testimonial h2,
+#benefit h2{
+    font-size: 35px;
+}
 
 .wrap{
     flex-wrap: wrap;
@@ -175,12 +180,21 @@ ul{
 /* testimonial section */
 
 #testimonial{
-    margin: 50px;
+    margin: 50px 0 30px 0;
 }
 
 #testimonial p,
 #testimonial h2{
-    margin: 30px;
+    margin: 30px 0;
+}
+
+#testimonial .title-section{
+    text-align: center;
+}
+
+#testimonial .title-section h2{
+    font-size: 30px;
+    color: #9792e4;
 }
 
 .col-3{
@@ -211,5 +225,54 @@ ul{
 /* benefit */
 #benefit{
     background-color: #9593e6;
-    padding: 50px 0;
+    padding: 50px 0 30px 0;
 }
+
+#benefit .title-section {
+    color: white;
+    margin-bottom: 50px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.col-6{
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.col-6-content{
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 20px 40px 20px 20px;
+
+}
+
+.col-6-content h2,
+.col-6-content h3{
+    color: #9792e4;
+}
+
+.col-6-content h2,
+.col-6-content p{
+    padding: 20px 0;
+}
+
+.col-6-content h2{
+    font-size: 40px;
+}
+.col-6-content h3{
+    font-size: 30px;
+}
+
+#benefit a{
+    display: block;
+    border-radius: 20px;
+    background-color: #9792e4;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+
+
